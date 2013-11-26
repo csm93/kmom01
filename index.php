@@ -8,11 +8,10 @@ $data['title'] 			  = "Me-sida";
 $data['meta_description'] = "Min egna me-sida";
 $data['main'] 			  = <<<EOD
 
-<article class="justify border" style="width:80%"> 
 <h1>Om mig</h1>
 
 <figure class="right top">
-    <img src="img/me.jpg" width=192 height=175>
+    <img src="img/me.jpg" width=192 height=175 alt="Jag">
   </figure> 
 
 
@@ -21,7 +20,6 @@ $data['main'] 			  = <<<EOD
   Eftersom jag ägnat tid tidigare åt att bygga webbsidor passar det här kurspaketet mig utmärkt för att ordentligt gå igenom grunderna inom HTML/CSS/PHP.
   </p>
   På min fritid ägnar jag tid till AIK:s matcher. Har sedan barnsben varit gnagare och har följt fotbollen och ishockeyn ända sedan dess. Jag spelar själv fotboll i korpen och har även ett stort intresse för datorer sedan början av tonåren.
-  </article>
 
 
 

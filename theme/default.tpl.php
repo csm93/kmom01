@@ -52,7 +52,9 @@
   </header>
   
   <div id="main" role="main">
+  <article class="justify border" style="width:80%"> 
     <?=$main?>
+	</article>
   </div>
 
   <footer id="footer">
