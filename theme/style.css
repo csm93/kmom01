@@ -1,0 +1,169 @@
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+@import url(../css/style.css);
+@import url(http://fonts.googleapis.com/css?family=Shojumaru);
+
+
+/**
+ * Structure
+ */
+html {
+  overflow-y:scroll;
+}
+
+body {
+  background-image: url('img/zwartevilt.png');
+  color:#333;
+}
+
+#above {
+  border-bottom:1px solid #eee;
+  margin-bottom:4px;
+  padding-left:1em;
+  color:#333;
+  font-size:0.7em;
+}
+
+#header,
+#main,
+#footer {
+  margin:8px auto;
+  padding:1em;
+  width:970px;
+  background-color:#fff;
+  opacity: 0.8;
+  border:1px solid #000;
+} 
+
+#header {
+  border-radius: 5px 5px 0px 0px;
+  }
+
+#main {
+  min-height:20em;
+}
+
+#footer {
+  border-radius: 0px 0px 5px 5px;
+  font-size:0.9em;
+  text-align:center;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+#banner {
+  display:table;
+  margin-bottom:10px;
+}
+
+.site-logo,
+.site-title,
+.site-slogan {
+  display:table-cell;
+  width:inherit;
+  vertical-align:middle;
+  text-align:left;
+}
+
+.site-logo {}
+.site-title {
+  font-family: 'Shojumaru', cursive;
+  line-height:0;
+  font-size:3em;
+  padding-left:20px;
+  color:#333;
+  text-shadow:#ccc 4px -4px 4px;
+}
+.site-slogan {
+  font-family: 'Shojumaru', cursive;
+  padding-left:20px;
+  font-style:italic;
+}
+
+
+/**
+ * Navbar
+ */
+#navbar {height: 50px; padding:10px; opacity: 0.7;}
+#navbar a {padding: 10.5px 11px;background-color: #000;color: #fff; text-decoration:none;}
+#navbar a:hover,
+#navbar a.selected
+{background-color:#0b75b2;color: #fff;}
+
+
+/**
+ * Fonts
+ */
+h1{text-transform:uppercase;}
+h1,h2{
+  border-bottom:1px solid #dddddd;
+} 
+
+
+/**
+ * Links
+ */
+a,
+a:visited {
+  color:#A84C00;
+}
+
+
+/**
+ * Figure and images
+ */
+figure {
+  display: table;
+  width:1px;
+  border: 2px solid #eee;
+  margin:1em;
+  padding:2px;
+}
+
+img, figcaption {
+  display: table-row;
+  vertical-align: bottom;
+}
+
+a figcaption,
+figcaption {
+  font-style:italic;
+  font-size:smaller;
+  color:#666;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
+a:hover figure {
+  background-color:#eee;
+  border:2px solid #999;
+}
+
+
+/**
+ * byline & signature
+ */
+.byline {
+  clear: both;
+  border-top: 1px dashed #999;
+  margin-top:2em;
+  padding: 1em;
+  color: #666;
+  font-size: smaller;
+  font-style:italic;
+}
+
+.byline img {padding:2px;outline:#999 groove 1px;}
+
+
+/**
+ * Misc classes
+ */
+.right {float:right;} 
+
+article {line-height: 24px; padding:10px;}
